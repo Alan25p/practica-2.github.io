@@ -1,0 +1,63 @@
+@page {
+    size: 216mm 356mm; /* Tamaño oficio */
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    width: 216mm; /* Tamaño oficio */
+    height: 356mm; /* Tamaño oficio */
+    background: white;
+    padding: 20mm; /* Agregado padding para el contenido */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #2c3e50;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.contacto, .datos-academicos, .experiencia, .video-presentacion {
+    margin-top: 15px;
+}
+
+video {
+    width: 100%;
+}
